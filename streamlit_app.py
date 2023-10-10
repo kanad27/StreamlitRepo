@@ -10,7 +10,8 @@ with st.echo():
 title = st.text_input('Enter your POD', 'Database Security and Authentication Management')
 st.write('We are working in POD - ', title)
 
-st.write('New Section')
-
-color = st.color_picker('Pick A Color', '#00f900')
-st.write('The current color is', color)
+with st.container():
+    st.write('New Section')
+    
+    color = st.color_picker('Pick A Color', '#00f900')
+    st.write('The current color is', color)
