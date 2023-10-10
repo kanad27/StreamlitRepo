@@ -12,5 +12,5 @@ st.write('We are working in POD - ', title)
 
 st.write('New Section')
 
-color = st.color_picker('Pick A Color', '#00f90f')
+color = st.color_picker('Pick A Color', '#00f900')
 st.write('The current color is', color)
