@@ -1,5 +1,6 @@
 import streamlit as st
 import datetime
+from prompt_toolkit import prompt
 
 st.balloons()
 
@@ -21,3 +22,22 @@ with st.container():
 d = st.date_input("When's your birthday", datetime.date(2019, 7, 6))
 st.write('Your birthday is:', d)
 
+# Import python packages
+
+# Write directly to the app
+st.title("Example Streamlit App :balloon:")
+st.write(
+    """Replace this example with your own code!
+    **And if you're new to Streamlit,** check
+    out our easy-to-follow guides at
+    [docs.streamlit.io](https://docs.streamlit.io).
+    """
+)
+
+# Get the current credentials
+session = get_active_session()
+
+
+answer = prompt('Give me some input: ')
+print('You said: %s' % answer)
+st.write(answer)
