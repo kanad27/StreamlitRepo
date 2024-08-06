@@ -1,6 +1,5 @@
 import streamlit as st
 import datetime
-from prompt_toolkit import prompt
 
 st.balloons()
 
