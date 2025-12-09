@@ -34,9 +34,14 @@ st.write(
 )
 
 # Get the current credentials
-session = get_active_session()
+# session = get_active_session()
 
 
-answer = prompt('Give me some input: ')
-print('You said: %s' % answer)
-st.write(answer)
+# answer = prompt('Give me some input: ')
+# print('You said: %s' % answer)
+# st.write(answer)ub
+
+st.write('From Github')
+
+
+
